@@ -1,0 +1,38 @@
+.jumbotron {
+	color: teal;
+	margin-bottom: auto;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	text-align: center;
+    opacity: .8;
+    background-image: url(https://media.giphy.com/media/aRZ4vTsHnyW6A/giphy.gif);
+}
+
+body{
+    background: url(https://media.giphy.com/media/BHNfhgU63qrks/giphy.gif) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.btn{
+    opacity: .6;
+    background-color: black;
+
+}
+.btn:hover{
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+    transform: translate(5px,10px);
+    cursor: pointer;
+    transition: box-shadow 1s, transform 2s;
+    background-color: red;
+}
+.form-group{
+    opacity: .8;
+}
+h3{
+    background-color: black;
+}
+p{
+    background-color: black;
+}
